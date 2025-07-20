@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nu-Look Exteriors</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Georgia', serif; }
+  </style>
+</head>
+<body class="bg-[#F7F1E1] text-[#2D2A26]">
+
+  <!-- Header -->
+  <header class="bg-[#375E97] text-[#F7F1E1]">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center flex-wrap">
+
+      <div>
+        <a href="#">
+          <img src="https://www.nulook.net/images/home.png" alt="Nu Look Exteriors Logo" class="h-12" />
+        </a>
+      </div>
+
+      <nav class="flex items-center space-x-6">
+        <a href="#" class="hover:underline">Home</a>
+        <a href="#" class="hover:underline">Services</a>
+        <a href="#" class="hover:underline">About</a>
+        <a href="#" class="hover:underline">Contact</a>
+        <!-- Emergency button on the right of contact -->
+        <a href="tel:+1234567890" 
+           class="bg-red-600 hover:bg-red-700 text-white font-bold px-4 py-2 rounded shadow-lg transition animate-pulse"
+           aria-label="Emergency Contact">
+          Click Here for Emergency Services 
+        </a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-[#375E97] text-[#F7F1E1] text-center px-4 py-12 md:py-16">
+    <h1 class="text-4xl md:text-5xl font-semibold mb-4 md:mb-6">
+      Custom Metal Systems<br />Built With Precision
+    </h1>
+    <p class="max-w-3xl mx-auto text-base md:text-lg leading-relaxed">
+      At Nu-Look Exteriors, we combine expert craftsmanship and personalized service to bring your exterior vision to life.
+      With over 40 years of experience, we specialize in custom metal and composite systems for new construction, remodels, repairs, and everything in between.
+      From concept to completion, our in-house team ensures your project is completed with precision, efficiency, and attention to detail.
+    </p>
+    <div class="mt-6 md:mt-8">
+      <a href="#" class="border px-6 py-3 inline-block text-[#375E97] border-[#F7F1E1] bg-[#F7F1E1] hover:bg-[#D3CABF] hover:text-[#2D2A26] transition rounded">
+        Get in Touch
+      </a>
+    </div>
+  </section>
+
+  <!-- Image Section -->
+  <section class="grid grid-cols-1 md:grid-cols-2">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.epxzF9MBhhuHGLPJvUq-QgHaE7?rs=1&pid=ImgDetMain" alt="Sheet Metal Fabrication" class="w-full h-48 md:h-64 object-cover" />
+    <img src="https://www.rapiddirect.com/wp-content/uploads/elementor/thumbs/what-is-sheet-metal-hemming-1536x864.jpg-1-qq6lb31snhh5yb456vgnc7pqjrzujl5irx6y0g9c14.webp" alt="Metal Building" class="w-full h-48 md:h-64 object-cover" />
+  </section>
+
+  <!-- Services Section -->
+  <section class="bg-[#D3CABF] text-[#2D2A26] py-16 px-6">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-10 text-center">Our Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="bg-white p-6 shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold mb-2">Storefront & Frontage</h3>
+          <p>Revitalize and modify existing storefronts with precision-crafted metal and composite panel upgrades tailored to your brand.</p>
+        </div>
+        <div class="bg-white p-6 shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold mb-2">Custom Fabrication & Canopies</h3>
+          <p>Custom fabrication of light gauge metals, column covers, and commercial canopies to meet your unique style and budget.</p>
+        </div>
+        <div class="bg-white p-6 shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold mb-2">Roofing & Wall Panels</h3>
+          <p>Standing seam, flush seam, exposed fastener, and flat lock wall and roofing panels for durable and aesthetic exterior solutions.</p>
+        </div>
+        <div class="bg-white p-6 shadow-md rounded-lg">
+          <h3 class="text-xl font-semibold mb-2">Metal Flashings & Accessories</h3>
+          <p>Fabrication and installation of coping caps, fascia, drip edges, flashings, and counterflashings with quick turnaround.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  
+  <!-- About Section -->
+  <section class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-semibold mb-6 text-center">About Nu-Look Exteriors</h2>
+    <p class="max-w-4xl mx-auto text-center leading-relaxed text-[#2D2A26]">
+      With over 40 years of experience, Nu-Look Exteriors offers expert manufacturing and installation of exterior metal and composite systems.
+      Our personalized service and flexibility have earned us long lasting relationships locally and nationally with corporations, contractors, and individual owners.
+      We specialize in new construction, remodels, repairs, and custom projects – delivering precision, efficiency, and quality every step of the way.
+    </p>
+  </section>
+
+  <!-- Meet Our Team Section -->
+  <section class="bg-[#D3CABF] py-16 px-6">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-10 text-center">Meet Our Team</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 shadow-md rounded-lg text-center">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Kaan" class="mx-auto rounded-full w-32 h-32 mb-4 object-cover" />
+          <h3 class="text-xl font-semibold mb-1">Kaan Turnali</h3>
+          <p class="italic text-sm text-gray-700 mb-2">Chief Fabrication Officer</p>
+          <p>John brings over 25 years of metal fabrication expertise to lead our production team with precision and innovation.</p>
+        </div>
+        <div class="bg-white p-6 shadow-md rounded-lg text-center">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Mary Johnson" class="mx-auto rounded-full w-32 h-32 mb-4 object-cover" />
+          <h3 class="text-xl font-semibold mb-1">Mary Johnson</h3>
+          <p class="italic text-sm text-gray-700 mb-2">Project Manager</p>
+          <p>Mary oversees all client projects, ensuring timely delivery and superior quality from start to finish.</p>
+        </div>
+        <div class="bg-white p-6 shadow-md rounded-lg text-center">
+          <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="David Lee" class="mx-auto rounded-full w-32 h-32 mb-4 object-cover" />
+          <h3 class="text-xl font-semibold mb-1">David Lee</h3>
+          <p class="italic text-sm text-gray-700 mb-2">Design Engineer</p>
+          <p>David combines engineering know-how with creative solutions to bring your exterior concepts to life.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Materials Section -->
+<section class="bg-[#F7F1E1] text-[#2D2A26] py-16 px-6">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-10 text-center">Materials We Use</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 shadow-md rounded-lg">
+        <h3 class="text-xl font-semibold mb-2">Composite Panels</h3>
+        <p>High-performance composite panels offering durability, lightweight strength, and aesthetic versatility for modern exteriors.</p>
+      </div>
+      <div class="bg-white p-6 shadow-md rounded-lg">
+        <h3 class="text-xl font-semibold mb-2">Standing Seam Metal Roofing</h3>
+        <p>Long-lasting standing seam roofing systems engineered for superior weather resistance and sleek architectural appeal.</p>
+      </div>
+      <div class="bg-white p-6 shadow-md rounded-lg">
+        <h3 class="text-xl font-semibold mb-2">Metal Flashings & Accessories</h3>
+        <p>Precision-fabricated coping caps, fascia, drip edges, and flashings to protect your building and enhance curb appeal.</p>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  <!-- Contact Section -->
+  <section class="bg-[#375E97] text-[#F7F1E1] py-16 px-6">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-6">Get in Touch</h2>
+      <p class="mb-6 max-w-2xl mx-auto">
+        Ready to start your project or have questions? Contact us today and let Nu-Look Exteriors be your solution.
+      </p>
+      <a href="mailto:info@nu-lookexteriors.com" class="inline-block bg-[#F7F1E1] text-[#375E97] px-8 py-3 rounded font-semibold hover:bg-[#D3CABF] transition">
+        Email Us
+      </a>
+    </div>
+  </section>
+
+  <!-- Chat with Us Button -->
+  <a href="#" 
+     class="fixed bottom-6 right-6 bg-[#D97706] text-white px-5 py-3 rounded-full shadow-lg font-semibold hover:bg-[#b55e05] transition z-50"
+     aria-label="Chat with Us">
+    Chat with Us
+  </a>
+    
+  <!-- Footer -->
+  <footer class="bg-[#2D2A26] text-[#F7F1E1] text-center py-6">
+    &copy; 2025 Nu-Look Exteriors. All rights reserved.
+  </footer>
+
+</body>
+</html>
